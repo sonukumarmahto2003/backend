@@ -13,7 +13,6 @@ app.post("/notes", (req, res) => {
 
 app.get("/notes", (req, res) => {
     res.send(notes);
-    console.log(notes);
 })
 
 app.delete("/notes/:index", (req, res) => {
