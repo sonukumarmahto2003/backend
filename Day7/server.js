@@ -6,7 +6,7 @@ const userModel = require("./src/model/user.model");
 
 mongoose
   .connect(
-    "mongodb+srv://ddhote780_db_user:1J4gZwNtnAujKAKs@letsgo.zyzsz1u.mongodb.net/"
+    "mongodb+srv://ddhote780_db_user:1J4gZwNtnAujKAKs@letsgo.zyzsz1u.mongodb.net/testDb"
   )
   .then((res) => console.log(`MongoDB Connected`))
   .catch((err) => {
