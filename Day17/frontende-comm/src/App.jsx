@@ -3,7 +3,7 @@ import Register from "./components/Register";
 import Login from "./components/Login";
 
 const App = () => {
-  const [togggle, setTogggle] = useState(true);
+   const [togggle, setTogggle] = useState(true);
 
   return (
     <div>
@@ -23,7 +23,7 @@ export default App;
 // function App(){
 //   return(
 //     <div>
-//       <h1 class="bg-sky-800">fghjkl</h1>
+//       <h1 className="bg-sky-800">fghjkl</h1>
 //     </div>
 //   )
 // }
